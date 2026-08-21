@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "sourceMap": false,
+    "outDir": "./",
+    "rootDir": "./",
+    "skipLibCheck": true,
+    "types": []
+  },
+  "files": ["main.ts"]
+}

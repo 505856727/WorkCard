@@ -1,0 +1,42 @@
+{
+  "Version": "0.0.3",
+  "Props": [
+    {
+      "Name": "txtTitle",
+      "Type": 0,
+      "NamePath": "txt_title",
+      "IdPath": "n1_ex",
+      "Click": null
+    },
+    {
+      "Name": "btnOk",
+      "Type": 0,
+      "NamePath": "btn_ok",
+      "IdPath": "n2_ex",
+      "Click": "_OnBtnOk"
+    },
+    {
+      "Name": "ctrlState",
+      "Type": 0,
+      "NamePath": "@state",
+      "IdPath": "@state",
+      "Click": null
+    },
+    {
+      "Name": "btnTabs",
+      "Type": 1,
+      "Elements": [
+        {
+          "NamePath": "btn_tab_1",
+          "IdPath": "n3_ex",
+          "Click": null
+        },
+        {
+          "NamePath": "btn_tab_2",
+          "IdPath": "n4_ex",
+          "Click": null
+        }
+      ]
+    }
+  ]
+}

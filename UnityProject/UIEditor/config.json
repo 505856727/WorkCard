@@ -1,0 +1,7 @@
+
+{
+    "FGUIPath" : "../../FGUIProject/",
+    "ExportPath" : "UI/UI/",
+    "ExcludeDepPackages" : [
+    ]
+}

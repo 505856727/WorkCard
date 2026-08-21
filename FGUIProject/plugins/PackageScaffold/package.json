@@ -1,0 +1,7 @@
+{
+  "name": "com.fairygui.plugin.packagescaffold",
+  "displayName": "新建包脚手架",
+  "description": "新建包时自动按团队规范创建标准子目录（Buttons / Images / Items / Windows）",
+  "version": "1.0.0",
+  "main": "main.js"
+}

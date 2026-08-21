@@ -1,0 +1,45 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# FairyGUI
+FGUIProject/.objs/
+FGUIProject/plugins/**/node_modules/
+FGUIProject/plugins/**/dist/
+
+# Unity
+UnityProject/Library/
+UnityProject/Temp/
+UnityProject/Obj/
+UnityProject/Logs/
+UnityProject/UserSettings/
+UnityProject/MemoryCaptures/
+UnityProject/Recordings/
+UnityProject/[Ll]ibrary/
+UnityProject/*.csproj
+UnityProject/*.sln
+UnityProject/*.suo
+UnityProject/*.user
+UnityProject/*.userprefs
+UnityProject/*.pidb
+UnityProject/*.booproj
+UnityProject/*.svd
+UnityProject/*.pdb
+UnityProject/*.mdb
+UnityProject/*.opendb
+UnityProject/*.VC.db
+UnityProject/*.unityproj
+UnityProject/ExportedObj/
+UnityProject/.vs/
+UnityProject/.idea/
+
+# Build
+*.apk
+*.aab
+*.ipa
+*.app
+Build/
+Builds/
+
+# Node
+node_modules/

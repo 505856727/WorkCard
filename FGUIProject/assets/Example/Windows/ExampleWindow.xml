@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080" pivot="0.5,0.5">
+  <controller name="state" pages="0,normal,1,done" selected="0"/>
+  <displayList>
+    <graph id="n0_ex" name="pic_bg" xy="0,0" size="1920,1080" type="rect" lineSize="0" fillColor="#ff1c1c1e">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n1_ex" name="txt_title" xy="460,220" size="1000,80" fontSize="48" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="Example Window">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n2_ex" name="btn_ok" src="btnok001" fileName="Buttons/btn_ok.xml" xy="820,480">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button title="确定"/>
+    </component>
+    <component id="n3_ex" name="btn_tab_1" src="btnok001" fileName="Buttons/btn_ok.xml" xy="640,620" size="280,80">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button title="Tab 1"/>
+    </component>
+    <component id="n4_ex" name="btn_tab_2" src="btnok001" fileName="Buttons/btn_ok.xml" xy="1000,620" size="280,80">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button title="Tab 2"/>
+    </component>
+    <component id="n5_ex" name="btn_close" src="btnok001" fileName="Buttons/btn_ok.xml" xy="1760,32" size="120,64">
+      <relation target="" sidePair="right-right,top-top"/>
+      <Button title="关闭"/>
+    </component>
+  </displayList>
+</component>
