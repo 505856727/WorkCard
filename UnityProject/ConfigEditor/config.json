@@ -1,0 +1,16 @@
+
+{
+    "ExcelPath" : "../../Tables//",
+    "ExportPath" : "Resources/Config//",
+    "CsvPath"    : "../ConfigEditor/csv//",
+    "DescRow"    : 1,
+    "KeyRow"     : 3,
+    "TypeRow"    : 2,
+    "Configs"    : {
+        "EventCardConfig" : {
+            "Type" : 2,
+            "IndexFromOne" : false,
+            "GroupKey"     : "test"
+        }
+    }
+}

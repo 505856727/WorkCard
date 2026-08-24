@@ -172,14 +172,6 @@ namespace WorkCard.Editor
             return StringBuilder.ToString();
         }
 
-        public string GetIdPathByNamePath(string namePath)
-        {
-            if (this is ComponentData component)
-            {
-                return component.GetIdPathByNamePath(namePath);
-            }
-
-            return "";
-        }
+        public virtual string GetIdPathByNamePath(string namePath) => "";
     }
 }

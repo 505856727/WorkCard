@@ -80,7 +80,7 @@ namespace WorkCard.Editor
             FileName = Path.GetFileNameWithoutExtension(componentFile);
         }
 
-        public string GetIdPathByNamePath(string namePath)
+        public override string GetIdPathByNamePath(string namePath)
         {
             var index = NodeNamePaths.IndexOf(namePath);
             return index > -1 ? _nodeIdPaths[index] : "";

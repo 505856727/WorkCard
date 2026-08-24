@@ -1,1 +1,4 @@
-public class Card {}
+namespace Game
+{
+    public class Card { }
+}

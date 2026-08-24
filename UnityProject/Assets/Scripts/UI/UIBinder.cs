@@ -4,10 +4,13 @@ namespace WorkCard.UI
 {
     public static class UIBinder
     {
-        public static void BindAll()
+        public static void BindAll(bool loadConfigFromFile = true)
         {
             UIRegistry.Collect();
-            UIConfig.LoadFromFile();
+            if (loadConfigFromFile)
+            {
+                UIConfig.LoadFromFile();
+            }
 
             foreach (var info in UIRegistry.ByType.Values)
             {

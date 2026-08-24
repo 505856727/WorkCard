@@ -1,0 +1,4 @@
+地图半宽,生成区域半宽,最大等级,同等级玩家最大数量,npc移动速度基数,npc移动速度因数,追踪半径,搜索半径倍数（基于追踪）,预制缩放,最大鱼尺寸,玩家移动速度,相机尺寸,npc最大数量,低等级鱼数量比例,荷叶尺寸上下限,荷叶生成间距,击杀特效颜色,npc旋转时间上下限（秒/180°）,npc最短旋转时间,最大距离因数
+float,float,float,float,float,float,float[],float,float,float,float[],float[],float[],float[],float[],float,string[],float[],float,float[]
+mapHalfSize,spawnHalfSize,maxLevel,playerLimit,npcMoveSpeedBase,npcMoveSpeedFactor,trackRadius,searchRadiusFactor,prefabScale,maxFishSize,playerMoveSpeed,cameraSize,npcCountLimit,lowerLevelCountPro,leafSize,leafStep,killEffectColors,npcRotIntervals,npcRotIntervalMin,maxDistanceFactor
+50,50,9,3,2,0.8,"2, 3, 5, 8.5, 14, 20, 22, 25, 28",3,1,15,"6.6, 7.2, 7.8, 9, 11, 12, 13.5, 15, 17","13,14,16,18,19,20,22,23,25","50, 47, 45, 42, 40, 37, 35, 32, 30","0.8, 0.8, 0.7, 0.7, 0.65, 0.6, 0.6, 0.6, 0.6","2.5, 4",20,"`#d94b79`, `#ff4f57`, `#625858`, `#ffd600`, `#96e439`, `#f6aed6`, `#ff7700`, `#3d91b8`, `#abc0db`","0.4, 0.8",0.3,"1.1, 1.1, 1.1, 1.1, 0.95, 0.8, 0.8, 0.8, 0.8"
